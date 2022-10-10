@@ -23,11 +23,11 @@ main() {
    cin >> absen;
    cout << "IPK = ";
    cin >> ipk;
-   cout << "=================================================================================" << endl;
+   cout << "=================================================================================";
 
 //Output Section
-   cout << "================================================================================="<< endl <<
-   "Selamat, data anda sudah masuk ke database kami. Berikut data yang anda masukkan tadi." << endl <<
+   cout << "================================================================================="<<
+   "Selamat, data anda sudah masuk ke database kami. Berikut data yang anda masukkan tadi" << endl <<
    "Nama = " << nama << endl <<
    "Kelas = " << kelas << endl <<
    "Absen = " << absen << endl << "IPK = " << ipk << endl <<
