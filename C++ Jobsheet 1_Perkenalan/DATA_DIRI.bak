@@ -1,9 +1,8 @@
 #include <iostream>
 #include <string>
 #include <stdio.h>
-#include 
 
-main() {
+void main() {
 
 string nama = "Fadlillah Bashir Al Hakim";
 string tanggallahir = "18 Juli 2003";
@@ -16,5 +15,5 @@ string kelas = "1C";
 cout << "Halo, perkenalkan saya" << endl <<
 "Nama : " + nama << endl << "Lahir di : " + tempatlahir + "," + tanggallahir << endl <<
 "Umur : " + umur << endl << "Jurusan : " + jurusan << endl << "Prodi : " + prodi << endl << "kelas : " + kelas;
- getch();
+
 }
