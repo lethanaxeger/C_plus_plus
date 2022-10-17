@@ -1,15 +1,27 @@
 #include <iostream>
 #include <string>
 #include <stdio.h>
+<<<<<<< HEAD
+#include 
+
+main() {
+=======
 #include <conio.h>
 
 using namespace std;
+>>>>>>> 8a4ff4f7edf2efd6a827bc5cd12e8b04da156c92
 
 char nama[40];
 char kelas[2];
 int absen;
 float ipk;
 
+<<<<<<< HEAD
+cout << "Halo, perkenalkan saya" << endl <<
+"Nama : " + nama << endl << "Lahir di : " + tempatlahir + "," + tanggallahir << endl <<
+"Umur : " + umur << endl << "Jurusan : " + jurusan << endl << "Prodi : " + prodi << endl << "kelas : " + kelas;
+ getch();
+=======
 main() {
 
 //Input Section
@@ -23,15 +35,16 @@ main() {
    cin >> absen;
    cout << "IPK = ";
    cin >> ipk;
-   cout << "=================================================================================";
+   cout << "=================================================================================" << endl;
 
 //Output Section
-   cout << "================================================================================="<<
-   "Selamat, data anda sudah masuk ke database kami. Berikut data yang anda masukkan tadi" << endl <<
+   cout << "================================================================================="<< endl <<
+   "Selamat, data anda sudah masuk ke database kami. Berikut data yang anda masukkan tadi." << endl <<
    "Nama = " << nama << endl <<
    "Kelas = " << kelas << endl <<
    "Absen = " << absen << endl << "IPK = " << ipk << endl <<
    "=================================================================================";
 
 getch();
+>>>>>>> 8a4ff4f7edf2efd6a827bc5cd12e8b04da156c92
 }

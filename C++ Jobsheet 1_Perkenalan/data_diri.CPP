@@ -1,20 +1,37 @@
 #include <iostream>
 #include <string>
 #include <stdio.h>
-#include 
+#include <conio.h>
+
+char nama[40];
+char kelas[2];
+int absen;
+float ipk;
+
+using namespace std;
 
 main() {
 
-string nama = "Fadlillah Bashir Al Hakim";
-string tanggallahir = "18 Juli 2003";
-string tempatlahir = "Malang";
-int umur = 19;
-string jurusan = "Teknik Elektro";
-string prodi = "D3 Teknik Telekomunikasi";
-string kelas = "1C";
+//Input Section
+	cout << "=================================================================================" << endl <<
+   "Selamat datang di Setor Mahasiswa POLINEMA. Silahkan masukkan data anda" << endl;
+	cout << "Nama = ";
+   gets(nama);
+   cout << "Kelas = ";
+   cin >> kelas;
+   cout << "Absen = ";
+   cin >> absen;
+   cout << "IPK = ";
+   cin >> ipk;
+   cout << "=================================================================================" << endl;
 
-cout << "Halo, perkenalkan saya" << endl <<
-"Nama : " + nama << endl << "Lahir di : " + tempatlahir + "," + tanggallahir << endl <<
-"Umur : " + umur << endl << "Jurusan : " + jurusan << endl << "Prodi : " + prodi << endl << "kelas : " + kelas;
- getch();
+//Output Section
+   cout << "================================================================================="<< endl <<
+   "Selamat, data anda sudah masuk ke database kami. Berikut data yang anda masukkan tadi." << endl <<
+   "Nama = " << nama << endl <<
+   "Kelas = " << kelas << endl <<
+   "Absen = " << absen << endl << "IPK = " << ipk << endl <<
+   "=================================================================================";
+
+getch();
 }
