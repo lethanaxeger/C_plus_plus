@@ -1,0 +1,34 @@
+#include <iostream>
+#include <conio.h>
+#include <stdio.h>
+#include <string>
+
+int umur;
+
+seleksi_usia(int umur){
+if (umur <= 5){
+	cout << "\nUmur yang anda masukkan masuk ke kategori Balita";
+}else if (umur <= 10){
+	cout << "\nUmur yang anda masukkan masuk ke kategori Anak-Anak";
+}else if (umur <= 23){
+	cout << "\nUmur yang anda masukkan masuk ke kategori Remaja";
+}else if (umur <= 50){
+	cout << "\nUmur yang anda masukkan masuk ke kategori Dewasa";
+}else if(umur > 50){
+	cout << "\nUmur yang anda masukkan masuk ke kategori Tua";
+}else {
+	cout << "\nUmur yang anda masukkan masuk ke kategori Embrio atau sudah.....";
+}
+return 0;
+}
+
+main(){
+cout << "!-!-! Cek Kategori Usia !-!-!\n";
+
+//Input Section
+cout << "\nMasukkan Umur Anda/Keluarga/Saudara = ";
+cin >> umur;
+
+seleksi_usia(umur);
+getch();
+}
