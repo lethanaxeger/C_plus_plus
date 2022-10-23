@@ -19,11 +19,11 @@ main(){
    cout << "\n\n=-=-=-=-=-=-=\n";
 
 	//seleksi
-   if (a > b || a > c) {
+   if (a > b && a > c) {
    	cout << "\nNilai terbesar adalah : " << a;
-   } else if (b > a || b > c){
+   } else if (b > a && b > c){
    	cout << "\nNilai terbesar adalah : " << b;
-   } else if (c > a || c > b){
+   } else if (c > a && c > b){
     	cout << "\nNilai terbesar adalah : " << c;
    }
 

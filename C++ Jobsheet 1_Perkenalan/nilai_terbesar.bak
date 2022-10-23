@@ -7,7 +7,7 @@ using namespace std;
 
 double a,b,c;
 
-double main(){
+main(){
 	//header
 	cout << " !_!_! Biggest Number Program !_!_!\n\n";
 
@@ -16,9 +16,16 @@ double main(){
 	cout << "Lebokno Nilai B Coy : "; cin >> b;
 	cout << "Lebokno Nilai C Coy : "; cin >> c;
 
-	cout << "\n\nNilai terbesar yo iku = " << max(a, b, c);
-   return 0;
+   cout << "\n\n=-=-=-=-=-=-=\n";
+
+	//seleksi
+   if (a > b || a > c) {
+   	cout << "\nNilai terbesar adalah : " << a;
+   } else if (b > a || b > c){
+   	cout << "\nNilai terbesar adalah : " << b;
+   } else if (c > a || c > b){
+    	cout << "\nNilai terbesar adalah : " << c;
+   }
 
 	getch();
-
 }
