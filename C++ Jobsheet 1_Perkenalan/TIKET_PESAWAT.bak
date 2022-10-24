@@ -21,11 +21,11 @@ if(bagasi > tfreebagasi){
 
  //Total Harga
  int total_harga = hdewasa + hanak + hbayi + hbagasi;
- cout << "=-= Informasi Penumpang =-=\n Penumpang Dewasa : " << dewasa << " Orang,\n Penumpang Anak-anak : " << anak << " Orang,\n Penumpang Bayi : " << bayi << " Orang,\n Dengan berat barang bawaan sebesar : " << bagasi << " Kg.\n\nTotal biaya = Rp." << total_harga;
+ cout << "Penumpang Dewasa : " << dewasa << " Orang,\n Penumpang Anak-anak : " << anak << " Orang,\n Penumpang Bayi : " << bayi << " Orang,\n Dengan berat barang bawaan sebesar : " << bagasi << " Kg.\n\nTotal biaya = Rp." << total_harga;
 }
 else{
  int total_harga = hdewasa + hanak + hbayi;
- cout << "=-= Informasi Penumpang =-=\n Penumpang Dewasa : " << dewasa << " Orang,\n Penumpang Anak-anak : " << anak << " Orang,\n Penumpang Bayi : " << bayi << " Orang,\n Dengan berat barang bawaan sebesar : " << bagasi << " Kg.\n\nTotal biaya = Rp." << total_harga;
+ cout << "Penumpang Dewasa : " << dewasa << " Orang, Penumpang Anak-anak : " << anak << " Orang, Penumpang Bayi : " << bayi << " Orang, dengan berat barang bawaan sebesar : " << bagasi << " Kg.\n\nTotal biaya = Rp." << total_harga;
 }
 
 return 0;
@@ -45,7 +45,7 @@ cout << " Bayi : ";
 cin >> bayi;
 cout << "\n Berat barang bawaan : ";
 cin >> bagasi;
-cout << "\n =-=-=-=-=-=-=-=-=-=-=-=-= \n\n\n";
+cout << "\n =-=-=-=-=-=-=-=-=-=-=-=-=";
 
 //free bagasi
 int tfreebagasi =  dewasa * bbagasi;
