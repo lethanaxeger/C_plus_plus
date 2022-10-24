@@ -18,19 +18,27 @@ Im add some another function so we can choose whether i need to count luas only 
 In this section, i learn how to use If Else in C++. Well it's more likely the others framework how if else work so you should similiar if you already learn it from other framework.
 This is my project to deep-learn about if else
 ## Program Bachelor-Pass Application
-![Alt Text]()
+![Alt Text](https://github.com/lethanaxeger/C_plus_plus/blob/main/nilai_average%20gk%20lulus.PNG)
+### When it Pass
+![Alt Text](https://github.com/lethanaxeger/C_plus_plus/blob/main/nilai_average.PNG)
 
 ## Major Selector
-![Alt Text]()
+![Alt Text](https://github.com/lethanaxeger/C_plus_plus/blob/main/pemilihan_jurusan.PNG)
 
 ## Biggest Number
-![Alt Text]()
+![Alt Text](https://github.com/lethanaxeger/C_plus_plus/blob/main/Biggest%20Number.PNG)
 
 ## Age Category
-![Alt Text]()
+![Alt Text](https://github.com/lethanaxeger/C_plus_plus/blob/main/Age_Category.PNG)
 
 ## Photocopy Application
-![Alt Text]()
+### When the status is Pelanggan
+![Alt Text](https://github.com/lethanaxeger/C_plus_plus/blob/main/fotokopi_pelanggan.PNG)
+### When the status is Pembeli (Non-Pelanggan)
+![Alt Text](https://github.com/lethanaxeger/C_plus_plus/blob/main/fotokopi_nonpelanggan.PNG)
 
 ## Check-In Airport Application
-![Alt Text]()
+### When the Weight is under or same as the standard (Adult * 20Kg)
+![Alt Text](https://github.com/lethanaxeger/C_plus_plus/blob/main/Tiket%20under%20weight.PNG)
+### When the Weight is over standard
+![Alt Text](https://github.com/lethanaxeger/C_plus_plus/blob/main/Tiket%20over%20weight.PNG)
