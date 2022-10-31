@@ -3,10 +3,48 @@
 #include <stdio.h>
 #include <string>
 
+//INT Declaration
+int h_parkir = 10000;
+int w_parkir = 2;
+int d_parkir = 100000;
+int lp, h_total;
+
+//STRING Declaration
+string pnk;
+
 using namespace std;
 
+seleksi(string pnk, int lp){
+//header
+cout << "\n\n\n =-= Result =-= ";
 
+//seleksi
+if (lp <= 2){
+	cout << "\n\nKendaraan ini parkir selama " << lp <<" jam. Biaya parkir pada kendaraan dengan plat nomor " << pnk << ", sebesar Rp." << h_parkir;
+}else if(lp < 24){
+   h_total = 10000 + ((lp-2)*1000);
+   cout << "\n\nKendaraan ini parkir selama " << lp << " jam. Karena melebihi batas waktu parkir (2 jam), maka biaya kendaraan dengan plat nomor " << pnk << ", sebesar Rp." << h_total;
+}else{
+   h_total = 10000 + ((lp-2)*1000) + 100000;
+   cout << "\n\nKendaraan ini parkir selama " << lp << " jam. Karena melebihi batas waktu parkir (2 jam), maka biaya kendaraan dengan plat nomor " << pnk << ", sebesar Rp." << h_total;
+}
+
+return 0;
+}
 
 main(){
 
+//Header
+cout << "=-= Aplikasi parkir Politeknik Negeri Malang =-=\n\n" << "	Biaya Parkir :\nMobil atau Motor = Rp.10.000/jam\n\n\n";
+
+//Input
+cout << "\n=-= Data Input =-=\n\n";
+cout << "  Plat Nomer kendaraan : ";
+cin >> pnk;
+cout << "  Lama parkir kendaraan : ";
+cin >> lp;
+
+seleksi(pnk,lp);
+
+getch();
 }
