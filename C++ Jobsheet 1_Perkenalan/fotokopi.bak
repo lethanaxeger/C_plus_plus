@@ -8,6 +8,7 @@ using namespace std;
 int papers, harga, diskon, htotal;
 string bolean;
 
+//Jika pembeli adalah pelanggan
 pelanggan(){
 	//header
    cout << "\n\n=-= Menu Pelanggan =-= \n\n";
@@ -34,7 +35,7 @@ pelanggan(){
     //output
     cout << "\nKarena anda pelanggan setia, harga fotokopi dengan banyak lembar " << papers << " sebesar Rp." << htotal;
    }
-   else if(papers > 100){
+   else{
     //proses perhitungan
     harga = papers * 150;
     diskon = harga * 5/100;
@@ -47,6 +48,7 @@ pelanggan(){
    return htotal;
 }
 
+//Jika pembeli bukan pelanggan
 pembeli_pertama(){
 	//header
    cout << "\n\n=-= Menu Pelanggan =-= \n\n";
@@ -69,7 +71,7 @@ pembeli_pertama(){
     //output
     cout << "\nHarga fotokopi dengan banyak lembar " << papers << " sebesar Rp." << harga;
    }
-   else if(papers > 100){
+   else{
     //proses perhitungan
     harga = papers * 150;
 

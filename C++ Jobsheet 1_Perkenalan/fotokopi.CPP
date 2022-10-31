@@ -20,7 +20,7 @@ pelanggan(){
    if(papers <= 50){
     //proses perhitungan
     harga = papers * 200;
-    diskon = harga * 5 / 100;
+    diskon = harga * 0.05;
     htotal = harga - diskon;
 
     //output
@@ -29,16 +29,16 @@ pelanggan(){
    else if(papers <= 100){
     //proses perhitungan
     harga = papers * 175;
-    diskon = harga * 5 / 100;
+    diskon = harga * 0.05;
     htotal = harga - diskon;;
 
     //output
     cout << "\nKarena anda pelanggan setia, harga fotokopi dengan banyak lembar " << papers << " sebesar Rp." << htotal;
    }
-   else if(papers > 100){
+   else{
     //proses perhitungan
     harga = papers * 150;
-    diskon = harga * 5/100;
+    diskon = harga * 0.05;
     htotal = harga - diskon;
 
     //output
@@ -71,7 +71,7 @@ pembeli_pertama(){
     //output
     cout << "\nHarga fotokopi dengan banyak lembar " << papers << " sebesar Rp." << harga;
    }
-   else if(papers > 100){
+   else{
     //proses perhitungan
     harga = papers * 150;
 
