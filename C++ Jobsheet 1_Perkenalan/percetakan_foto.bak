@@ -1,0 +1,50 @@
+#include <iostream>
+#include <string>
+#include <conio.h>
+#include <stdio.h>
+
+using namespace std;
+
+int lmbr, harga, diskon;
+
+outputnya(int lembar, int harga){
+	//front_endnya
+	cout << "Banyak lembaran yang diinginkan oleh pelanggan sebanyak : " << lmbr << " lembar, maka tarif percetakannya sebesar Rp." << harga;
+	return 0;
+}
+
+proses(int lembar){
+	if(lmbr < 100){
+   	harga = lmbr * 100;
+      outputnya(lmbr,harga);
+   }
+   else if (lmbr >= 250){
+   	diskon = (lmbr * 100) * 0.02;
+      harga = (lmbr * 100) - diskon;
+      outputnya(lmbr,harga);
+   }
+   else if (lmbr >= 500){
+   	diskon = (lmbr * 100) * 0.05;
+      harga = (lmbr * 100) - harga;
+      outputnya(lmbr,harga);
+   }
+   else {
+   	diskon = (lmbr * 100) * 0.07;
+      harga = (lmbr * 100) - harga;
+      outputnya(lmbr,harga);
+	}
+return 0;
+}
+
+main (){
+ // Header
+ cout << "=-= Percetakan foto POLINEMA Sukses =-=\n\n";
+
+ // Input
+ cout << "Banyak lembar yang ingin dicetak : ";
+ cin >> lmbr;
+
+ proses(lmbr);
+
+ getch();
+}
