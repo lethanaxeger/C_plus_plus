@@ -1,0 +1,25 @@
+#include <iostream>
+#include <conio.h>
+#include <stdio.h>
+
+main(){
+
+   int genap[15] = {1,5,4,3,2,6,10,9,7,8,15,11,14,13,12};
+   int ganjil[15];
+	int i, j, p, q;
+
+   for(i = 0; i<15; i++){
+   	p = genap[i] % 2;
+      if(p == 0){
+      	cout << "Bilangan genap = " << genap[i] << endl;
+      }
+   }
+   for(j = 0; j<15; j++){
+   	ganjil[j] = genap[j];
+      q = genap[j] % 2;
+      if(q == 1){
+      	cout << "Bilangan ganjil = " << ganjil[j] << endl;
+      }
+   }
+	getch();
+}

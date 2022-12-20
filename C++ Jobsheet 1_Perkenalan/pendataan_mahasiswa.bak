@@ -35,6 +35,7 @@ te(string nama, string jurusan){
       default :
       	cout << "test default bre";
    }
+   cout << "Nama : " << nama << "\nJurusan : " << jurusan << "\nProdi : " << prodi;
 return 0;
 }
 

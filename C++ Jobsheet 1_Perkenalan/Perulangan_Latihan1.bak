@@ -1,0 +1,19 @@
+#include <iostream.h>
+#include <conio.h>
+
+//variabel perulangan
+int x, y, z, n;
+
+main(){
+
+	cout << "Hi, Perulangan Number 1 nih\n\n";
+
+	cout << "inputnya ygy : ";
+	cin >> n;
+	for(x = 1; x <= n; x++){
+   	y = x * x;
+      cout << "hasil operasi perulangan step by step = " << y;
+   }
+   cout << "\n\n\nHasil dimana perulangan berakhir = " << y;
+   getch();
+}

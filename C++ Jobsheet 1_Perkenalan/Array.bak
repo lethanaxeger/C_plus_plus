@@ -1,0 +1,21 @@
+#include <iostream.h>
+#include <conio.h>
+
+int x, i;
+
+main(){
+
+	int erei [5];
+
+   int a = 1;
+
+   for (x=0; x<=4; x++){
+   	cout << "Masukkan nilai ke-" << a <<" = ";
+      cin >>erei[x];
+      a++;
+   }
+   for (i = 0; i <= 4; i++){
+   	cout << "Nilai ke-" << a << " = " << erei[i] << endl;
+   }
+   getch();
+}

@@ -8,37 +8,6 @@ using namespace std;
 char x, j, h;
 string nama, jurusan, prodi;
 
-te(string nama, string jurusan){
-	cout << "\nPilih Prodi anda :\n";
-   cout << "	1.Teknik Elektronika\n	2.Teknik Telekomunikasi\n	3.Teknik Listrik\n";
-   cout << "Pilihan anda : ";
-   cin >> j;
-   switch(j){
-   	case '1' :
-   		prodi = "Teknik Elektronika";
-   		break;
-   	case '2' :
-   		prodi = "Teknik Telekomunikasi";
-   		break;
-   	case '3' :
-   		prodi = "Teknik Listrik";
-   		break;
-   	default :
-   		prodi = "Halo bre, sepertinya ente masukin list yang tidak termasuk di sistem.";
-   		break;
-   }
-   cout << "Test input";
-   cin >> h;
-   switch(h){
-   	case '1' :
-      	cout << "test doang bre";
-      default :
-      	cout << "test default bre";
-   }
-   cout << "Nama : " << nama << "\nJurusan : " << jurusan << "\nProdi : " << prodi;
-return 0;
-}
-
 main(){
 	cout << "!_!_! Data Diri Mahasiswa Polinema !_!_!\n\n\n";
 
@@ -70,21 +39,31 @@ main(){
       	cout << "Halo bre, sepertinya ente masukin list yang tidak termasuk di sistem.";
 			break;
 	}
-   if (jurusan == "Teknik Elektro"){
-   	te(nama,jurusan);
+   switch(x){
+   	case '1' :
+      	cout << "\nPilih Prodi anda :\n";
+         cout << "	1.Teknik Elektronika\n	2.Teknik Telekomunikasi\n	3.Teknik Listrik\n";
+   		prodi = "Teknik Elektronika";
+   		break;
+   	case '2' :
+         cout << "\nPilih Prodi anda :\n";
+   		cout << "	1.Teknik Elektronika\n	2.Teknik Telekomunikasi\n	3.Teknik Listrik\n";
+   		prodi = "Teknik Telekomunikasi";
+   		break;
+   	case '3' :
+         cout << "\nPilih Prodi anda :\n";
+   		cout << "	1.Teknik Elektronika\n	2.Teknik Telekomunikasi\n	3.Teknik Listrik\n";
+   		prodi = "Teknik Listrik";
+   		break;
+   	default :
+   		prodi = "Halo bre, sepertinya ente masukin list yang tidak termasuk di sistem.";
+   		break;
    }
-   else if (jurusan == "Teknik Informatika"){
-   	cout << "Test bisa gk ya else";
+   switch(h){
+   	case '1' :
+      	cout << "test doang bre";
+      default :
+      	cout << "test default bre";
    }
-   else if (jurusan == "Teknik Mesin"){
-   	cout << "Test bisa gk ya else";
-   }
-   else if (jurusan == "Teknik Kimia"){
-   	cout << "Test bisa gk ya else";
-   }
-   else{
-   	cout <<"Test bisa gk ya";
-   }
-   cout << nama << jurusan << prodi;
-   getch();
+	getch();
 }
