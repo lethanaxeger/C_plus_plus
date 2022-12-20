@@ -5,7 +5,7 @@ int x, i;
 
 main(){
 
-	int erei [5];
+	int jimmy [3][5];
 
    for (x=0; x<=4; x++){
    	cout << "Masukkan nilai ke-" << x+1 <<" = ";

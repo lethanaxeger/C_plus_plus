@@ -7,15 +7,12 @@ main(){
 
 	int erei [5];
 
-   int a = 1;
-
    for (x=0; x<=4; x++){
-   	cout << "Masukkan nilai ke-" << a <<" = ";
+   	cout << "Masukkan nilai ke-" << x+1 <<" = ";
       cin >>erei[x];
-      a++;
    }
    for (i = 0; i <= 4; i++){
-   	cout << "Nilai ke-" << a << " = " << erei[i] << endl;
+   	cout << "Nilai ke-" << i+1 << " = " << erei[i] << endl;
    }
    getch();
 }

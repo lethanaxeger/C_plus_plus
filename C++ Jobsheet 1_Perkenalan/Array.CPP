@@ -5,6 +5,8 @@ int x, i;
 
 main(){
 
+	cout << "Program Array 1 Dimensi by Fadlillah Bashir Al Hakim" << endl;
+
 	int erei [5];
 
    for (x=0; x<=4; x++){

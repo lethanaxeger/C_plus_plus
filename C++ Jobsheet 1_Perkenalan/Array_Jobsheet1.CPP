@@ -8,6 +8,16 @@ main(){
    int ganjil[15];
 	int i, j, p, q;
 
+   cout << "=-= Program Pemilah bilangan Ganjil / Genap by Fadlillah Bashir Al Hakim =-=" << endl << endl;
+
+   cout << "Bilangan yang ada di dalam array : ";
+
+   for (i = 0; i<15; i++){
+   	cout << genap[i] << ",";
+   }
+
+   cout << endl << endl;
+
    for(i = 0; i<15; i++){
    	p = genap[i] % 2;
       if(p == 0){
